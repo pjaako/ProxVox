@@ -1,9 +1,9 @@
 Line	What	What for	What I Bought	Qty	Where I Bought It	What I paid (EUR)	Comment
-1	ITX Motherboard with barrel ("DC", "brick") connector	Server part					
-2	1x16MB DDR4 Module	Server part					
-3	512MB NVMe Drive	Server part					
-4	3,5” HDDs	NAS					
-5	35mm high 140x140mm fan	Good airflow at minimal RPM					
-6	2,5Gbps PCIe network card	Faster networking and passthrough to a VM					
-7	CNVio Wi-Fi/BT card	My workbench has no wired connection...					
-8	19V powerbrick not less than 100W	Powering all of the above and more					
+1	ITX Motherboard with barrel ("DC", "brick") connector	Server part	 ASROCK N100DC-ITX 	1	alza.de	125
+2	DDR4 Module	Server part	SK Hynix 16GB DDR4-3200 (used)	1	ebay.de	20	will replace it with 32 Gb soon
+3	NVMe Drive	Server part	WD Black SN7100 (500 GB, M.2 2280)	1	galaxus.de	51	should do it for <10 VMs
+4	3,5” HDDs	NAS	"Seagate ST12000DM0007 BarraCuda Pro + 12TB 3,5"" 256MB Cache (recertified)"	2	ebay.de	228	not exactly a NAS model but the price for the recertified drives was too good (bought before the scam wave)
+5	35mm high 140x140mm fan	Good airflow at minimal RPM	CORSAIR RS140 MAX 140mm	1	amazon.de	12	30mm thick fan should suck in enough fresh cold air even at minimal RPM
+6	2,5Gbps PCIe network card	Faster networking and passthrough to a VM	Intel I226T1	1	25n.de	51	I see no value in investing in a 10Gb switch at current price
+7	CNVio Wi-Fi/BT card	My workbench has no wired connection...	nothing so far	1	?	?	requirements: BT>5.2 since I'll try to make a BT sink. AX211NGW ?
+8	19V powerbrick not less than 100W	Powering all of the above and more	Delta SADP-135EB 19V 7A (used)	1	ebay.de	10
