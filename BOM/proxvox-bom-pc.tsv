@@ -7,3 +7,4 @@ Line	What	What for	What I Bought	Qty	Where I Bought It	What I paid (EUR)	Comment
 6	2,5Gbps PCIe network card	Faster networking and passthrough to a VM	Intel I226T1	1	25n.de	51	I see no value in investing in a 10Gb switch at current price
 7	CNVio Wi-Fi/BT card	My workbench has no wired connection...	nothing so far	1	?	?	requirements: BT>5.2 since I'll try to make a BT sink. AX211NGW ?
 8	19V powerbrick not less than 100W	Powering all of the above and more	Delta SADP-135EB 19V 7A (used)	1	ebay.de	10
+
