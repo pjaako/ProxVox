@@ -2,9 +2,1073 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid b2d95b56-b830-46e8-8d1f-758749cc9f8d)
+	(uuid "b2d95b56-b830-46e8-8d1f-758749cc9f8d")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "ProxVox-wiring:IDC10_PLUG@10"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at -0.762 19.304 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "IDC10 connector free hanging view from cable side"
+				(at 1.778 -19.812 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IDC10_PLUG@10_1_1"
+				(rectangle
+					(start -7.112 1.905)
+					(end -6.096 -1.905)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.096 17.399)
+					(end 6.096 -17.399)
+					(stroke
+						(width 0.3)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.302 10.922)
+					(end -1.778 9.398)
+					(stroke
+						(width 0.25)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.302 5.842)
+					(end -1.778 4.318)
+					(stroke
+						(width 0.25)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.302 0.762)
+					(end -1.778 -0.762)
+					(stroke
+						(width 0.25)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.302 -4.318)
+					(end -1.778 -5.842)
+					(stroke
+						(width 0.25)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.302 -9.398)
+					(end -1.778 -10.922)
+					(stroke
+						(width 0.25)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 11.43) (xy -2.54 10.922)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 6.35) (xy -2.54 5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy -2.54 -4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -8.89) (xy -2.54 -9.398)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.778 10.922)
+					(end 3.302 9.398)
+					(stroke
+						(width 0.25)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.778 5.842)
+					(end 3.302 4.318)
+					(stroke
+						(width 0.25)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.778 0.762)
+					(end 3.302 -0.762)
+					(stroke
+						(width 0.25)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.778 -4.318)
+					(end 3.302 -5.842)
+					(stroke
+						(width 0.25)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.778 -9.398)
+					(end 3.302 -10.922)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 8.89) (xy 2.54 9.398)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 2.54 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 2.54 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -6.35) (xy 2.54 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -11.43) (xy 2.54 -10.922)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 11.43 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 6.35 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 1.27 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -3.81 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -8.89 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 8.89 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 3.81 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -1.27 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -6.35 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -11.43 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "To Motherboard PANEL connector"
+		(exclude_from_sim no)
+		(at 21.336 42.672 90)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.5 1.5)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "c6185a41-a613-4538-b52d-fb93bde067d0")
+	)
+	(no_connect
+		(at 73.66 46.99)
+		(uuid "16c8ba2e-7fc3-448b-9082-a506270e0d0e")
+	)
+	(no_connect
+		(at 73.66 39.37)
+		(uuid "37378897-0a98-4fe1-9fe6-c770e7dbfd97")
+	)
+	(no_connect
+		(at 34.29 52.07)
+		(uuid "3fc846ad-2722-4d9d-ba4a-5ebdd3f62ba8")
+	)
+	(no_connect
+		(at 73.66 36.83)
+		(uuid "5101a215-151d-4774-9635-8d15bca51009")
+	)
+	(no_connect
+		(at 73.66 31.75)
+		(uuid "5533f812-5817-4f09-9b88-1d3d2886e46b")
+	)
+	(no_connect
+		(at 73.66 41.91)
+		(uuid "a71b212a-3e9c-4b8f-8d50-e315f881f1d5")
+	)
+	(no_connect
+		(at 39.37 54.61)
+		(uuid "c1815580-a64b-40e1-bacb-0fe872dc2a00")
+	)
+	(no_connect
+		(at 73.66 34.29)
+		(uuid "de733364-4dd0-4cc5-a4aa-a39b8eb391fa")
+	)
+	(wire
+		(pts
+			(xy 39.37 49.53) (xy 95.25 49.53)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(uuid "01cfc394-c452-46df-b030-55c65d0ac6ea")
+	)
+	(wire
+		(pts
+			(xy 95.25 44.45) (xy 90.17 44.45)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(uuid "0eeda54f-a9e8-4941-97ee-3369cf52aea9")
+	)
+	(wire
+		(pts
+			(xy 39.37 34.29) (xy 73.66 34.29)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(uuid "1f6b2729-99e6-424b-9919-b97cf14f4c7b")
+	)
+	(wire
+		(pts
+			(xy 39.37 39.37) (xy 73.66 39.37)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 194 194 0 1)
+		)
+		(uuid "24023869-0783-45eb-aa93-13ea879e34d0")
+	)
+	(wire
+		(pts
+			(xy 95.25 49.53) (xy 95.25 44.45)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 132 132 132 1)
+		)
+		(uuid "3632bea2-90f6-400b-8f35-cb4ffa76b31b")
+	)
+	(wire
+		(pts
+			(xy 34.29 36.83) (xy 73.66 36.83)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 221 133 0 1)
+		)
+		(uuid "6b6c6dd3-1054-4763-8689-8a1a7f478f30")
+	)
+	(wire
+		(pts
+			(xy 39.37 44.45) (xy 80.01 44.45)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "861e0b36-dc9e-417e-9f6c-333547d92eae")
+	)
+	(wire
+		(pts
+			(xy 34.29 41.91) (xy 73.66 41.91)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "b86f3118-e6b4-4bc2-b9c2-796237d3506d")
+	)
+	(wire
+		(pts
+			(xy 34.29 46.99) (xy 73.66 46.99)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 132 0 132 1)
+		)
+		(uuid "c04fd15e-0a0b-492a-812e-6c45c9e9dc0e")
+	)
+	(wire
+		(pts
+			(xy 34.29 31.75) (xy 73.66 31.75)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 128 77 0 1)
+		)
+		(uuid "cf24e387-082d-48e5-8646-50ad25a6d524")
+	)
+	(label "HDD LED (+)"
+		(at 40.64 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "179a306f-28c1-4cf6-9d2b-776bf5727ac6")
+	)
+	(label "Reset Switch (-)"
+		(at 40.64 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "252f4cf9-46c6-403c-9098-bca8a2eb3ca5")
+	)
+	(label "Reset Switch (+)"
+		(at 40.64 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "2bf29bd6-7661-4e40-b710-bc4a7510d3e5")
+	)
+	(label "Power LED (+)"
+		(at 40.64 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a8ffaec-ce96-41ce-9f5a-4aa67f478647")
+	)
+	(label "HDD LED (-)"
+		(at 40.64 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "64561580-2e7c-407a-8e31-854926c4d403")
+	)
+	(label "Power Switch (-)"
+		(at 40.64 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "da4ccda2-faf9-4a82-ad0c-56d4c584842a")
+	)
+	(label "Power LED (-)"
+		(at 40.64 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2c567b3-d57e-4203-90ab-a21273200702")
+	)
+	(label "Power Switch (+)"
+		(at 40.64 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f43a9f93-0ad0-4409-88d2-11426875992d")
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 85.09 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56222e08-774f-4029-8645-a9796accc234")
+		(property "Reference" "SW1"
+			(at 85.09 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Alps (original)"
+			(at 85.09 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 85.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d6a20d7-364b-45a8-b913-84b65abaae8c")
+		)
+		(pin "1"
+			(uuid "001cf126-b75f-4738-8a3a-8accb457059d")
+		)
+		(instances
+			(project ""
+				(path "/b2d95b56-b830-46e8-8d1f-758749cc9f8d"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProxVox-wiring:IDC10_PLUG@10")
+		(at 31.75 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7532df5-aa48-413d-a09e-7e68087ba196")
+		(property "Reference" "P1"
+			(at 30.988 23.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 31.242 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IDC10 connector free hanging view from cable side"
+			(at 33.528 62.992 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "05c065fe-b206-449a-be73-c40ccf95d0d2")
+		)
+		(pin "3"
+			(uuid "076832ff-7d25-40c8-95bc-189ddaee184f")
+		)
+		(pin "7"
+			(uuid "fca92409-3ea0-4b2b-ae64-1b21d7a9f910")
+		)
+		(pin "8"
+			(uuid "4b73d019-5e12-4977-9913-af1e04e100bf")
+		)
+		(pin "1"
+			(uuid "52ede23f-97dd-423a-852a-2a97d9d78e39")
+		)
+		(pin "4"
+			(uuid "7e319c9b-7f68-43fd-9cd2-6cc7964b553a")
+		)
+		(pin "10"
+			(uuid "b46009da-add1-4631-8c83-893fbea54278")
+		)
+		(pin "9"
+			(uuid "8192598f-ff23-4199-8ffe-7dbe47af156b")
+		)
+		(pin "2"
+			(uuid "f937bce0-3079-4649-8db4-abff78761bfd")
+		)
+		(pin "6"
+			(uuid "41ec9edd-078b-4dbc-befb-0b2a84184244")
+		)
+		(instances
+			(project ""
+				(path "/b2d95b56-b830-46e8-8d1f-758749cc9f8d"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
