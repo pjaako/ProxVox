@@ -13,7 +13,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "A"
-			(at 10.795 5.715 0)
+			(at 9.525 13.97 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Value" "MIKROE-4812"
-			(at 10.795 26.035 0)
+			(at 10.668 26.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -165,6 +165,123 @@
 					(color 0 194 0 1)
 				)
 			)
+			(rectangle
+				(start -0.635 27.94)
+				(end 23.495 24.765)
+				(stroke
+					(width 0)
+					(type default)
+					(color 194 194 194 1)
+				)
+				(fill
+					(type color)
+					(color 194 194 194 1)
+				)
+			)
+			(rectangle
+				(start -0.635 10.795)
+				(end 0.762 9.398)
+				(stroke
+					(width 0)
+					(type default)
+					(color 194 194 194 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(rectangle
+				(start -0.635 8.255)
+				(end 0.762 6.858)
+				(stroke
+					(width 0)
+					(type default)
+					(color 194 194 194 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(rectangle
+				(start -0.635 5.715)
+				(end 0.762 4.318)
+				(stroke
+					(width 0)
+					(type default)
+					(color 194 194 194 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(rectangle
+				(start -0.635 3.175)
+				(end 0.762 1.778)
+				(stroke
+					(width 0)
+					(type default)
+					(color 194 194 194 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(rectangle
+				(start -0.635 0.635)
+				(end 0.762 -0.762)
+				(stroke
+					(width 0)
+					(type default)
+					(color 194 194 194 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(rectangle
+				(start -0.635 -1.905)
+				(end 0.762 -3.302)
+				(stroke
+					(width 0)
+					(type default)
+					(color 194 194 194 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(rectangle
+				(start -0.635 -4.445)
+				(end 0.762 -5.842)
+				(stroke
+					(width 0)
+					(type default)
+					(color 194 194 194 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(rectangle
+				(start -0.635 -6.985)
+				(end 0.762 -8.382)
+				(stroke
+					(width 0)
+					(type default)
+					(color 194 194 194 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
 			(arc
 				(start -1.27 41.91)
 				(mid -0.5261 43.7061)
@@ -172,7 +289,7 @@
 				(stroke
 					(width 0)
 					(type default)
-					(color 0 72 0 1)
+					(color 0 132 0 1)
 				)
 				(fill
 					(type none)
@@ -204,17 +321,17 @@
 					(color 255 229 191 1)
 				)
 			)
-			(polyline
-				(pts
-					(xy 1.27 44.45) (xy 21.59 44.45)
-				)
+			(circle
+				(center 1.27 41.91)
+				(radius 2.54)
 				(stroke
 					(width 0)
 					(type default)
-					(color 0 72 0 1)
+					(color 0 194 0 0)
 				)
 				(fill
-					(type background)
+					(type color)
+					(color 0 132 0 1)
 				)
 			)
 			(rectangle
@@ -240,7 +357,7 @@
 				)
 				(fill
 					(type color)
-					(color 0 132 0 1)
+					(color 0 194 0 1)
 				)
 			)
 			(rectangle
@@ -371,6 +488,19 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(rectangle
+				(start 7.62 10.16)
+				(end 15.24 2.54)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 72 72 72 1)
 				)
 			)
 			(polyline
@@ -524,6 +654,19 @@
 					(type none)
 				)
 			)
+			(circle
+				(center 15.875 33.02)
+				(radius 4.445)
+				(stroke
+					(width 1.016)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type color)
+					(color 194 194 194 1)
+				)
+			)
 			(rectangle
 				(start 15.875 21.59)
 				(end 12.7 22.86)
@@ -597,19 +740,6 @@
 					(type outline)
 				)
 			)
-			(polyline
-				(pts
-					(xy 20.32 -12.7) (xy -1.27 -12.7) (xy -1.27 41.91)
-				)
-				(stroke
-					(width 0)
-					(type default)
-					(color 0 72 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(circle
 				(center 20.574 40.894)
 				(radius 0.0001)
@@ -629,23 +759,142 @@
 				(stroke
 					(width 0)
 					(type default)
-					(color 0 72 0 1)
+					(color 0 132 0 1)
 				)
 				(fill
 					(type none)
 				)
 			)
+			(circle
+				(center 21.59 41.91)
+				(radius 2.54)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 194 0 0)
+				)
+				(fill
+					(type color)
+					(color 0 132 0 1)
+				)
+			)
+			(rectangle
+				(start 22.225 10.795)
+				(end 23.622 9.398)
+				(stroke
+					(width 0)
+					(type default)
+					(color 194 194 194 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(rectangle
+				(start 22.225 8.255)
+				(end 23.622 6.858)
+				(stroke
+					(width 0)
+					(type default)
+					(color 194 194 194 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(rectangle
+				(start 22.225 5.715)
+				(end 23.622 4.318)
+				(stroke
+					(width 0)
+					(type default)
+					(color 194 194 194 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(rectangle
+				(start 22.225 3.175)
+				(end 23.622 1.778)
+				(stroke
+					(width 0)
+					(type default)
+					(color 194 194 194 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(rectangle
+				(start 22.225 0.635)
+				(end 23.622 -0.762)
+				(stroke
+					(width 0)
+					(type default)
+					(color 194 194 194 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(rectangle
+				(start 22.225 -1.905)
+				(end 23.622 -3.302)
+				(stroke
+					(width 0)
+					(type default)
+					(color 194 194 194 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(rectangle
+				(start 22.225 -4.445)
+				(end 23.622 -5.842)
+				(stroke
+					(width 0)
+					(type default)
+					(color 194 194 194 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(rectangle
+				(start 22.225 -6.985)
+				(end 23.622 -8.382)
+				(stroke
+					(width 0)
+					(type default)
+					(color 194 194 194 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
 			(polyline
 				(pts
-					(xy 24.13 41.91) (xy 24.13 -8.89)
+					(xy 24.13 41.91) (xy 24.13 -8.89) (xy 20.32 -12.7) (xy -1.27 -12.7) (xy -1.27 41.91) (xy 1.27 44.45)
+					(xy 21.59 44.45) (xy 24.13 41.91)
 				)
 				(stroke
 					(width 0)
 					(type default)
-					(color 0 72 0 1)
+					(color 0 132 0 1)
 				)
 				(fill
-					(type none)
+					(type color)
+					(color 0 132 0 1)
 				)
 			)
 			(polyline
@@ -663,196 +912,22 @@
 			)
 		)
 		(symbol "AudioAmp 8 Click_1_1"
-			(rectangle
-				(start -0.762 10.922)
-				(end 0.762 9.398)
-				(stroke
-					(width 0.25)
-					(type solid)
-					(color 0 0 0 1)
-				)
-				(fill
-					(type none)
+			(text "MA12070"
+				(at 10.795 6.985 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(color 132 132 132 1)
+					)
 				)
 			)
-			(rectangle
-				(start -0.762 8.382)
-				(end 0.762 6.858)
-				(stroke
-					(width 0.25)
-					(type solid)
-					(color 0 0 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -0.762 5.842)
-				(end 0.762 4.318)
-				(stroke
-					(width 0.25)
-					(type solid)
-					(color 0 0 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -0.762 3.302)
-				(end 0.762 1.778)
-				(stroke
-					(width 0.25)
-					(type solid)
-					(color 0 0 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -0.762 0.762)
-				(end 0.762 -0.762)
-				(stroke
-					(width 0.25)
-					(type solid)
-					(color 0 0 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -0.762 -1.778)
-				(end 0.762 -3.302)
-				(stroke
-					(width 0.25)
-					(type solid)
-					(color 0 0 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -0.762 -4.318)
-				(end 0.762 -5.842)
-				(stroke
-					(width 0.25)
-					(type solid)
-					(color 0 0 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -0.762 -6.858)
-				(end 0.762 -8.382)
-				(stroke
-					(width 0.25)
-					(type solid)
-					(color 0 0 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 22.098 10.922)
-				(end 23.622 9.398)
-				(stroke
-					(width 0.25)
-					(type solid)
-					(color 0 0 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 22.098 8.382)
-				(end 23.622 6.858)
-				(stroke
-					(width 0.25)
-					(type solid)
-					(color 0 0 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 22.098 5.842)
-				(end 23.622 4.318)
-				(stroke
-					(width 0.25)
-					(type solid)
-					(color 0 0 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 22.098 3.302)
-				(end 23.622 1.778)
-				(stroke
-					(width 0.25)
-					(type solid)
-					(color 0 0 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 22.098 0.762)
-				(end 23.622 -0.762)
-				(stroke
-					(width 0.25)
-					(type solid)
-					(color 0 0 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 22.098 -1.778)
-				(end 23.622 -3.302)
-				(stroke
-					(width 0.25)
-					(type solid)
-					(color 0 0 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 22.098 -4.318)
-				(end 23.622 -5.842)
-				(stroke
-					(width 0.25)
-					(type solid)
-					(color 0 0 0 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 22.098 -6.858)
-				(end 23.622 -8.382)
-				(stroke
-					(width 0.25)
-					(type solid)
-					(color 0 0 0 1)
-				)
-				(fill
-					(type none)
+			(text "MERUS"
+				(at 11.43 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 132 132 132 1)
+					)
 				)
 			)
 			(pin input line
@@ -1017,7 +1092,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -10.16 -7.62 0)
 				(length 10.16)
 				(name "GND"
@@ -1197,7 +1272,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 33.02 -7.62 180)
 				(length 10.16)
 				(name "GND"
