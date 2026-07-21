@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Serverola-wiring")(type "KiCad")(uri "${KIPRJMOD}/Serverola-wiring.kicad_sym")(options "")(descr ""))
+)

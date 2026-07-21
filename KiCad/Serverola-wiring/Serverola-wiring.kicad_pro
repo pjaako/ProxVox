@@ -265,7 +265,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ProxVox-wiring.kicad_pro",
+    "filename": "Serverola-wiring.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -432,8 +432,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "ProxVox-wiring.kicad_sch",
-        "name": "ProxVox-wiring",
+        "filename": "Serverola-wiring.kicad_sch",
+        "name": "Serverola-wiring",
         "uuid": "b2d95b56-b830-46e8-8d1f-758749cc9f8d"
       }
     ],
@@ -443,7 +443,7 @@
   "sheets": [
     [
       "b2d95b56-b830-46e8-8d1f-758749cc9f8d",
-      "ProxVox-wiring"
+      "Serverola-wiring"
     ],
     [
       "dd736ac1-64ad-4002-bc3e-8db70160fac5",

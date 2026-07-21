@@ -44,7 +44,7 @@
 			)
 		)
 		(instances
-			(project "ProxVox-wiring"
+			(project "Serverola-wiring"
 				(path "/b2d95b56-b830-46e8-8d1f-758749cc9f8d"
 					(page "3")
 				)
@@ -90,7 +90,7 @@
 			)
 		)
 		(instances
-			(project "ProxVox-wiring"
+			(project "Serverola-wiring"
 				(path "/b2d95b56-b830-46e8-8d1f-758749cc9f8d"
 					(page "2")
 				)

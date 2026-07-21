@@ -5,7 +5,7 @@
 	(uuid "c15ff914-466e-44df-80ca-919cabf2fa60")
 	(paper "A4")
 	(lib_symbols
-		(symbol "ProxVox-wiring:IDC10_PLUG@10"
+		(symbol "Serverola-wiring:IDC10_PLUG@10"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1004,7 +1004,7 @@
 			(uuid "001cf126-b75f-4738-8a3a-8accb457059d")
 		)
 		(instances
-			(project "ProxVox-wiring"
+			(project "Serverola-wiring"
 				(path "/b2d95b56-b830-46e8-8d1f-758749cc9f8d/dd736ac1-64ad-4002-bc3e-8db70160fac5"
 					(reference "SW1")
 					(unit 1)
@@ -1013,7 +1013,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ProxVox-wiring:IDC10_PLUG@10")
+		(lib_id "Serverola-wiring:IDC10_PLUG@10")
 		(at 43.18 48.26 0)
 		(unit 1)
 		(body_style 1)
@@ -1109,7 +1109,7 @@
 			(uuid "41ec9edd-078b-4dbc-befb-0b2a84184244")
 		)
 		(instances
-			(project "ProxVox-wiring"
+			(project "Serverola-wiring"
 				(path "/b2d95b56-b830-46e8-8d1f-758749cc9f8d/dd736ac1-64ad-4002-bc3e-8db70160fac5"
 					(reference "P1")
 					(unit 1)
